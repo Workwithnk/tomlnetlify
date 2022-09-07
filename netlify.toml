@@ -1,0 +1,10 @@
+[build]
+  base = "project/"
+  command = "npm run build"
+  functions = "netlify/functions"
+  publish = ".next"
+
+[[redirects]]
+    from = "/*"
+    to = "project/.next/server/pages/index.html"
+    status = 200
