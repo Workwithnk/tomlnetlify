@@ -1,5 +1,5 @@
 [build]
-  base = "/project/"
-  publish = ".next/"
+  base = "project/"
+  publish = ".next"
   command = "npm run build"
 
